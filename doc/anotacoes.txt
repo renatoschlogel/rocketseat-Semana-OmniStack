@@ -1,0 +1,3 @@
+
+NodeJS
+  * Iniciar arquivo packge.jsom  -   npm init -y   ou   yarn init -y
