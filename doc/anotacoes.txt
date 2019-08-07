@@ -1,3 +1,8 @@
+Observação: Esta sendo utilizado o gerenciado de depennciar yarn,
+            porem tambem pode ser utilizado o npm;
 
 NodeJS
-  * Iniciar arquivo packge.jsom  -   npm init -y   ou   yarn init -y
+  1. Iniciar arquivo packge.jsom       : yarn init -y
+  2. Instalando o express              : yarn add express
+    * micro service para NodeJS para trabalhar com rotas;
+    
