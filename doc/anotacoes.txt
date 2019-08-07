@@ -5,4 +5,5 @@ NodeJS
   1. Iniciar arquivo packge.jsom       : yarn init -y
   2. Instalando o express              : yarn add express
     * micro service para NodeJS para trabalhar com rotas;
-    
+  3. Instalando o nodemon              : yarn add nodemon -D
+    * o nodemon da reaload na aplicacao, cada vez o fonte é salvo. Assim é apenas uma dependencia de Desenvolvimento.
