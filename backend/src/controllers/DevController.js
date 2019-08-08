@@ -2,6 +2,19 @@ const axios = require('axios');
 const Dev = require('../models/Dev');
 
 module.exports = {
+    async index (req, res){
+        console.log('opaa');
+        const  {user} = req.headers;
+        const usuarioLogado = await Dev.findById(user);
+        const users = await Dev.find({
+            $and: [   // utilizar o end para utilizar a condição and entre as condições da consulta
+                {_id: {$ne: user}},
+                {_id: {$nin: usuarioLogado.likes}},
+                {_id: {$nin: usuarioLogado.dislikes}}
+            ]
+        });
+        return res.json(users);
+    },
     async store(req, res){
         const {username} = req.body;
 
