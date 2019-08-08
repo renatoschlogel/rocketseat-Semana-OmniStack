@@ -7,3 +7,7 @@ NodeJS
     * micro service para NodeJS para trabalhar com rotas;
   3. Instalando o nodemon              : yarn add nodemon -D
     * o nodemon da reaload na aplicacao, cada vez o fonte é salvo. Assim é apenas uma dependencia de Desenvolvimento.
+  4. Criar um script no package.json para executar o nodemon com o yarn;   : yarn dev
+      "scripts": {
+        "dev": "nodemon src/server.js"
+      },
