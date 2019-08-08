@@ -3,7 +3,7 @@ const express = require('express');
 const server = express();
 
 server.get('/', (req, res) =>{
-    res.send(`Ola DEV ${req.query.nome}!`);
+    return res.send(`Ola DEV ${req.query.nome}!`);
 });
 
 server.listen(3333);
