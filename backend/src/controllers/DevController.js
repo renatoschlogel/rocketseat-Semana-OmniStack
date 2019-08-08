@@ -3,7 +3,7 @@ const Dev = require('../models/Dev');
 
 module.exports = {
     async index (req, res){
-        console.log('opaa');
+        
         const  {user} = req.headers;
         const usuarioLogado = await Dev.findById(user);
         const users = await Dev.find({

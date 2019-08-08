@@ -17,3 +17,6 @@ NodeJS
   7. utiliar await para aguardar o retorno de uma api. 
     * para utilizao await, a funcao deve estar anotada com async;
   8. Utilizar o MongoDb Compass para consultar o banco de dados;
+  9. instalando o cors                                     : yarn add cors
+    * Para deixar a API acessivel ( no caso o React e React native)
+  10. programa para testar a API - insomnia ou Postman
