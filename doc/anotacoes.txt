@@ -2,14 +2,17 @@ Observação: Esta sendo utilizado o gerenciado de depennciar yarn,
             porem tambem pode ser utilizado o npm;
 
 NodeJS
-  1. Iniciar arquivo packge.jsom       : yarn init -y
-  2. Instalando o express              : yarn add express
+  1. Iniciar arquivo packge.jsom                           : yarn init -y
+  2. Instalando o express                                  : yarn add express
     * micro service para NodeJS para trabalhar com rotas;
-  3. Instalando o nodemon              : yarn add nodemon -D
+  3. Instalando o nodemon                                  : yarn add nodemon -D
     * o nodemon da reaload na aplicacao, cada vez o fonte é salvo. Assim é apenas uma dependencia de Desenvolvimento.
   4. Criar um script no package.json para executar o nodemon com o yarn;   : yarn dev
       "scripts": {
         "dev": "nodemon src/server.js"
       }
-  5.Instalando mongoose                : yarn add mongoose
+  5. Instalando mongoose                                   : yarn add mongoose
     * Ferramente para trabalhar com o banco de dados apenas utilizado java Script;
+  6. Utilizar o axios para acessar APIs externas           : yarn add axios
+  7. utiliar await para aguardar o retorno de uma api. 
+    * para utilizao await, a funcao deve estar anotada com async;
