@@ -16,3 +16,4 @@ NodeJS
   6. Utilizar o axios para acessar APIs externas           : yarn add axios
   7. utiliar await para aguardar o retorno de uma api. 
     * para utilizao await, a funcao deve estar anotada com async;
+  8. Utilizar o MongoDb Compass para consultar o banco de dados;
