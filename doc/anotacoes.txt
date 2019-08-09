@@ -1,7 +1,7 @@
 Observação: Esta sendo utilizado o gerenciado de depennciar yarn,
             porem tambem pode ser utilizado o npm;
 
-NodeJS
+Backend - NodeJS
   1. Iniciar arquivo packge.jsom                           : yarn init -y
   2. Instalando o express                                  : yarn add express
     * micro service para NodeJS para trabalhar com rotas;
@@ -20,3 +20,7 @@ NodeJS
   9. instalando o cors                                     : yarn add cors
     * Para deixar a API acessivel ( no caso o React e React native)
   10. programa para testar a API - insomnia ou Postman
+
+
+Frontand - ReactJS
+  1. Criando projeto do fontand                            : yarn create react-app frontand
