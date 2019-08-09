@@ -23,4 +23,6 @@ Backend - NodeJS
 
 
 Frontand - ReactJS
-  1. Criando projeto do fontand                            : yarn create react-app frontand
+  1. Criando projeto do fontand                            : yarn create react-app frontand;
+  2. instalação do react-router-dom                        : yarn add react-router-dom
+    * Trabalhar com rotas no front;
