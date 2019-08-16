@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
+const cors = require('cors');
 
 const server = express();
 
@@ -8,6 +9,7 @@ mongoose.connect('mongodb+srv://renato:renato@cluster0-14h8x.mongodb.net/omnista
    useNewUrlParser: true 
 });
 
+server.use(cors());
 server.use(express.json()); // para trabalhar com Json 
 server.use(routes);
 

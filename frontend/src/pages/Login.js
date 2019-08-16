@@ -12,14 +12,14 @@ export default function Login( {history}) {
         e.preventDefault();
         console.log('username:', username);
 
-        const response = await api.get('/devs');
-        console.log('Opaaa', response);
+        //const response = await api.get('/devs');
+        console.log('Opaaa');
         
         
         
-        // const response = await api.post('/devs', { 
-        //   username: username
-        // });
+        const response = await api.post('/devs', { 
+           username: username
+        });
 
 
 
