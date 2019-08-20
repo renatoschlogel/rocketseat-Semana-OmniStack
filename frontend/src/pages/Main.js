@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function Main(){
+export default function Main({match}){
     return (
-        <h1>Olá!!</h1>
+        <h1>isUsuário: {match.params.id}</h1>
     );
 }
