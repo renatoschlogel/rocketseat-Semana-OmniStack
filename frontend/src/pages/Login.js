@@ -10,22 +10,14 @@ export default function Login( {history}) {
 
     async function handleSubmit(e) {
         e.preventDefault();
-        console.log('username:', username);
 
-        //const response = await api.get('/devs');
-        console.log('Opaaa');
-        
-        
-        
         const response = await api.post('/devs', { 
            username: username
         });
 
+        const {_id} = response.data;
 
-
-        console.log(response);
-
-        history.push('/main')
+        history.push(`/dev/${_id}`);
     }
 
     return (
