@@ -12,18 +12,18 @@ export default function Login( {history}) {
         e.preventDefault();
         console.log('username:', username);
 
-        // const response = await api.get('/devs');
-        // console.log('Opaaa', response);
+        const response = await api.get('/devs');
+        console.log('Opaaa', response);
         
         
         
-        const response = await api.post('/devs', { 
-          username,
-        });
+        // const response = await api.post('/devs', { 
+        //   username: username
+        // });
 
 
 
-        console.log('Response: ', response);
+        console.log(response);
 
         history.push('/main')
     }
