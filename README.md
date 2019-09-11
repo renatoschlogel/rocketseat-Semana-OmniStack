@@ -30,7 +30,7 @@ Observação: Esta sendo utilizado o gerenciado de depennciar yarn,
   10. programa para testar a API - insomnia ou Postman
 
 
-# Frontand - ReactJS
+# Frontend - ReactJS
   1. Criando projeto do frontend                           : yarn create react-app frontend;
   2. instalação do react-router-dom                        : yarn add react-router-dom
     * Trabalhar com rotas no front;
