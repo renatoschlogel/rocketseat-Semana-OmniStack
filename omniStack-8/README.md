@@ -5,6 +5,8 @@ backend - Nodejs;
 frontend - React;
 mobile - React Native;
 
+Aplicação Desenvolvida: TinDev - Tinder para desenvolvedores de encontrarem no github;
+
 
 Observação: Esta sendo utilizado o gerenciado de depennciar yarn,
             porem tambem pode ser utilizado o npm;
