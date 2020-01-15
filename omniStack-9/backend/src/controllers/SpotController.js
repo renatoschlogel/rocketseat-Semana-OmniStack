@@ -1,8 +1,24 @@
+const Spot = require('../models/Spot');
+const User = require('../models/User');
 
-// const Sport = require('../models/Sport');
 module.exports = {
     async store(req, res) {
-        
+        const { filename } = req.file;
+        const {company, techs, price } = req.body;
+        const user_id = req.headers;
+
+        const user = await User.findById(user_id);
+        if(!user){
+            return res.status(400).json({error: 'User does not exists'})
+        }
+
+        const spot = await Spot.create({
+            user: user_id,
+            thumbnail: filename,
+            company,
+            techs: techs.split(',').map(tech.trim(),
+            price)
+        });
         return res.json({ok: true });
     }
 };
