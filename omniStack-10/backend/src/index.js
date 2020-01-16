@@ -10,7 +10,6 @@ mongoose.connect('mongodb+srv://renato:renato@cluster0-14h8x.mongodb.net/week10?
 });
 
 app.use(express.json());
-
 app.use(routes);
 
 
